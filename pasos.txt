@@ -1,4 +1,6 @@
-1.
-2.
-3.
-4.
+1. en primer lugar lo que hicimos fue crear un entorno virtual con el comando python3 -m venv venv
+2. luego activamos el entorno virtual con el comando source venv/bin/activate
+3. luego instalamos las dependencias con el comando pip install django djangorestframework djangorestframework-simplejwt djoser psycopg2-binary
+4. luego creamos el proyecto con el comando django-admin startproject autentificacion . (con el pundo indicamos que se cree en la carpeta actual)
+5. creamos la app con el comando python manage.py startapp cuentas
+
