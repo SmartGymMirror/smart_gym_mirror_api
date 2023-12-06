@@ -3,4 +3,5 @@
 3. luego instalamos las dependencias con el comando pip install django djangorestframework djangorestframework-simplejwt djoser psycopg2-binary
 4. luego creamos el proyecto con el comando django-admin startproject autentificacion . (con el pundo indicamos que se cree en la carpeta actual)
 5. creamos la app con el comando python manage.py startapp cuentas
-
+6. añadimos en settings.py la app creada en la variable INSTALLED_APPS, además de añadir django_framework y djoser
+7. pasamos ahora a crear el modelo de la cuenta en el archivo models.py
