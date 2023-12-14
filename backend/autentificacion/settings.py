@@ -80,7 +80,7 @@ WSGI_APPLICATION = "autentificacion.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": 'prueba',
+        "NAME": 'auth_system',
         'USER': 'postgres',
         'PASSWORD': 'Lunalba58',
         'HOST': 'localhost',
@@ -91,7 +91,7 @@ DATABASES = {
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend' #para que nos envie un correo electronico
 EMAIL_HOST='smtp.gmail.com' #servidor de correo
 EMAIL_PORT=587 #puerto de correo
-EMAIL_HOST_USER= 'smartgymprueba@gmail.com' #correo electronico
+EMAIL_HOST_USER= 'albabr08@gmail.com' #correo electronico
 EMAIL_HOST_PASSWORD='espejo123' #contraseña del correo electronico
 EMAIL_USE_TLS=True #protocolo de seguridad
 
